@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/beyaz"
+        android:title="Beyaz Arkaplan"
+
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/koyu"
+        android:title="Koyu Arkaplan"
+
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/galeri"
+
+        android:title="Galeriden Seç"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/varsayilan"
+
+        android:title="Varsayılan"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_call_white_24dp"
+        android:title="Ara"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ozel"
+        android:icon="@drawable/ic_call_white_24dp"
+        android:title="Özel Renk"
+        app:showAsAction="never" />
+</menu>

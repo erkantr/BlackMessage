@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/action_search"
+            android:orderInCategory="100"
+            android:title="Ara"
+            android:icon="@drawable/searchi"
+            app:showAsAction="always|collapseActionView"
+            app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/settins"
+        android:orderInCategory="100"
+        android:title="settings"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24">
+
+        <menu>
+
+            <item
+                android:id="@+id/profil"
+                android:title="Profil"
+                android:icon="@drawable/ic_account_circle_black_24dp"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/call"
+                android:title="Ara"
+                android:icon="@drawable/ic_local_phone_black_24dp"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Çıkış Yap"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+</menu>
